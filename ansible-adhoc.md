@@ -13,4 +13,4 @@
 - create ansible playbooks
 - run ansible playbooks using "ansible-playbook playbook-name"
 - run ansible adhoc commands for simple single commands to be run in all hosts
-- to run adhoc commands <b>ansible -i hosts all -m "shell" -a "touch devopsclass"</b>
+- to run adhoc commands <b>ansible all -m "shell" -a "touch devopsclass"</b>
